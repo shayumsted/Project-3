@@ -6,15 +6,12 @@ class Car {constructor(make, speed) {this.make = make; this.speed = speed;}}
     // Method used to accelerate the car by 10 km/h
     Car.prototype.accelerate = function() {
         this.speed += 10;
-        console.log(this.make + ' accelerated to ' + this.speed + ' km/h.');
-    }
+        console.log(this.make + 'accelerated to' + this.speed + ' km/h.');}
     
-
     // Method used to brake the car and decrease speed by 5 km/h
     Car.prototype.brake = function() {
         this.speed -= 5;
-        console.log(this.make + ' slowed down to ' + this.speed + ' km/h.');
-    }
+        console.log(this.make + 'slowed down to' + this.speed + ' km/h.');}
 
 // Test Data
 const car1 = new Car('BMW', 120);
