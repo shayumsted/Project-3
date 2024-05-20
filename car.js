@@ -11,3 +11,6 @@ accelerate() {this.speed += 10;
 brake() {this.speed -= 5;
     console.log(`${this.make} slowed down to ${this.speed} km/h.`);}
 
+// Test Data
+const car1 = new Car('BMW', 120);
+const car2 = new Car('Mercedes', 95);
