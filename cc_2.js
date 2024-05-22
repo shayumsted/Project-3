@@ -21,7 +21,7 @@ console.log("Starting speeds");
 console.log(`${car1.make} initial speed: ${car1.speed} km/h`);
 console.log(`${car2.make} initial speed: ${car2.speed} km/h`);
 
-// Testing accelartion and braking methods Car 1
+// Testing acceleration and braking methods Car 1
 console.log("Testing Car 1:");
 car1.accelerate(); // BMW accelerated to 130 km/h.
 car1.brake(); // BMW slowed down to 125 km/h.
